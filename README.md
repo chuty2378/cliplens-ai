@@ -1,4 +1,4 @@
-# Viora — media tools starter
+# ClipLens AI — frontend starter
 
 A responsive Next.js frontend inspired by the general workflow of online media utility websites.
 
@@ -37,3 +37,11 @@ To build production media processing:
 - Add privacy policy, terms and copyright/takedown pages.
 - Configure a real backend, storage and approved media integrations.
 - Review applicable platform terms and local law.
+
+
+## Cloudflare Pages deployment (static frontend)
+- Framework preset: Next.js (Static HTML Export) or configure manually.
+- Build command: `npm run build`
+- Build output directory: `out`
+- Node.js version: 20.9 or newer.
+- This starter is frontend-only. It does not include a media-processing backend, FFmpeg workers, database, or admin dashboard.
